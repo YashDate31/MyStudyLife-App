@@ -1,0 +1,60 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="55" fill="#3498db" stroke="#2c3e50" stroke-width="3"/>
+  
+  <!-- Inner Background -->
+  <circle cx="60" cy="60" r="48" fill="#ecf0f1"/>
+  
+  <!-- Book Stack -->
+  <rect x="25" y="55" width="35" height="6" fill="#e74c3c" rx="1"/>
+  <rect x="27" y="48" width="33" height="6" fill="#27ae60" rx="1"/>
+  <rect x="29" y="41" width="31" height="6" fill="#f39c12" rx="1"/>
+  
+  <!-- Open Book -->
+  <path d="M65 45 Q75 40 85 45 L85 70 Q75 65 65 70 Z" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+  <path d="M65 45 Q55 40 45 45 L45 70 Q55 65 65 70 Z" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+  <line x1="65" y1="45" x2="65" y2="70" stroke="#2c3e50" stroke-width="1.5"/>
+  
+  <!-- Book Lines -->
+  <line x1="50" y1="52" x2="60" y2="52" stroke="#bdc3c7" stroke-width="1"/>
+  <line x1="50" y1="56" x2="58" y2="56" stroke="#bdc3c7" stroke-width="1"/>
+  <line x1="50" y1="60" x2="60" y2="60" stroke="#bdc3c7" stroke-width="1"/>
+  
+  <line x1="70" y1="52" x2="80" y2="52" stroke="#bdc3c7" stroke-width="1"/>
+  <line x1="72" y1="56" x2="80" y2="56" stroke="#bdc3c7" stroke-width="1"/>
+  <line x1="70" y1="60" x2="80" y2="60" stroke="#bdc3c7" stroke-width="1"/>
+  
+  <!-- Pencil -->
+  <rect x="75" y="25" width="4" height="20" fill="#f39c12" rx="2"/>
+  <polygon points="75,25 79,25 77,20" fill="#e74c3c"/>
+  <rect x="76" y="44" width="2" height="3" fill="#2c3e50"/>
+  
+  <!-- Calendar Icon -->
+  <rect x="20" y="75" width="20" height="18" fill="#fff" stroke="#2c3e50" stroke-width="1.5" rx="2"/>
+  <rect x="20" y="75" width="20" height="5" fill="#9b59b6" rx="2 2 0 0"/>
+  <line x1="24" y1="72" x2="24" y2="77" stroke="#2c3e50" stroke-width="1"/>
+  <line x1="36" y1="72" x2="36" y2="77" stroke="#2c3e50" stroke-width="1"/>
+  
+  <!-- Calendar Dots -->
+  <circle cx="25" cy="85" r="1" fill="#2c3e50"/>
+  <circle cx="30" cy="85" r="1" fill="#2c3e50"/>
+  <circle cx="35" cy="85" r="1" fill="#2c3e50"/>
+  <circle cx="25" cy="89" r="1" fill="#e74c3c"/>
+  <circle cx="30" cy="89" r="1" fill="#2c3e50"/>
+  
+  <!-- Checkmark -->
+  <circle cx="85" cy="85" r="12" fill="#27ae60"/>
+  <path d="M80 85 L83 88 L90 81" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Study Stars -->
+  <polygon points="95,30 96,33 99,33 97,35 98,38 95,36 92,38 93,35 91,33 94,33" fill="#f1c40f"/>
+  <polygon points="15,35 16,37 18,37 17,38 17,40 15,39 13,40 14,38 12,37 14,37" fill="#f1c40f"/>
+  
+  <!-- App Title Arc -->
+  <defs>
+    <path id="circle-text" d="M 60 60 m -42 0 a 42 42 0 1 1 84 0 a 42 42 0 1 1 -84 0"/>
+  </defs>
+  <text font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">
+    <textPath href="#circle-text" startOffset="25%">MyStudyLife</textPath>
+  </text>
+</svg>
